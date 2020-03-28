@@ -34,11 +34,7 @@ ReactHeatmap.propTypes = {
 }
 
 ReactHeatmap.defaultProps = {
+	max: 1.4,
 	data: [],
-	gradient: {
-		'.3': '#8f9bc9',
-		'.85': '#596590',
-		'.95': '#47557e'
-	},
-	radius: 20
+	radius: 30
 }

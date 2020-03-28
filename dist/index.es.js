@@ -816,18 +816,13 @@ var ReactHeatmap = function (_Component) {
 
 ReactHeatmap.propTypes = {
 	radius: PropTypes.number,
-	data: PropTypes.array,
-	unit: PropTypes.string
+	data: PropTypes.array
 };
 
 ReactHeatmap.defaultProps = {
+	max: 1.4,
 	data: [],
-	gradient: {
-		'.3': '#8f9bc9',
-		'.85': '#596590',
-		'.95': '#47557e'
-	},
-	radius: 20
+	radius: 30
 };
 
 export default ReactHeatmap;
